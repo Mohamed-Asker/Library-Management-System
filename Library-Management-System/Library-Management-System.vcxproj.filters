@@ -13,10 +13,91 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\MainRefrence/">
+      <UniqueIdentifier>{ccc59302-c466-4ad5-ba7c-7a5cdf1420b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PresentationLayer/">
+      <UniqueIdentifier>{d02209e5-1f81-4fa1-a3e4-7975b30d8248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PresentationLayer/">
+      <UniqueIdentifier>{b9e76d67-c271-4a08-8ad5-605751ad9784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BusinessLogicLayer/">
+      <UniqueIdentifier>{339b92d1-66eb-43fc-ae2b-ad0f7de49138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BusinessLogicLayer/">
+      <UniqueIdentifier>{050b9c0a-e36b-43b4-bae3-3ca54eac6f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataAccessLayer/">
+      <UniqueIdentifier>{4e6dffd5-4128-4bd5-a6bb-15000d2198b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataAccessLayer/">
+      <UniqueIdentifier>{13f973b9-dd2a-4c9a-9a3e-64937ad3f214}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\MainRefrence/</Filter>
     </ClCompile>
+    <ClCompile Include="scr\PresentationLayer\Menus.cpp">
+      <Filter>Source Files\PresentationLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\PresentationLayer\Screen.cpp">
+      <Filter>Source Files\PresentationLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\PresentationLayer\Ui.cpp">
+      <Filter>Source Files\PresentationLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\BusinessLogicLayer\BookService.cpp">
+      <Filter>Source Files\BusinessLogicLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\BusinessLogicLayer\BorrowService.cpp">
+      <Filter>Source Files\BusinessLogicLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\BusinessLogicLayer\LoginService.cpp">
+      <Filter>Source Files\BusinessLogicLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\BusinessLogicLayer\MemberService.cpp">
+      <Filter>Source Files\BusinessLogicLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\DataAccessLayer\BookRepository.cpp">
+      <Filter>Source Files\DataAccessLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\DataAccessLayer\BorrowRepository.cpp">
+      <Filter>Source Files\DataAccessLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\DataAccessLayer\DataProcessing.cpp">
+      <Filter>Source Files\DataAccessLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\DataAccessLayer\MemberRepository.cpp">
+      <Filter>Source Files\DataAccessLayer/</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitattributes">
+      <Filter>Source Files\MainRefrence/</Filter>
+    </None>
+    <None Include="..\.gitignore">
+      <Filter>Source Files\MainRefrence/</Filter>
+    </None>
+    <None Include="..\README.md">
+      <Filter>Source Files\MainRefrence/</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\LICENSE.txt">
+      <Filter>Source Files\MainRefrence/</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scr\PresentationLayer\PresentationLayer.h">
+      <Filter>Header Files\PresentationLayer/</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\BusinessLogicLayer\BusinessLogicLayer.h">
+      <Filter>Header Files\BusinessLogicLayer/</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\DataAccessLayer\DataAccessLayer.h">
+      <Filter>Header Files\DataAccessLayer/</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

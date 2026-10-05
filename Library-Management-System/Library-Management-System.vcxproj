@@ -140,6 +140,30 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="scr\BusinessLogicLayer\BookService.cpp" />
+    <ClCompile Include="scr\BusinessLogicLayer\BorrowService.cpp" />
+    <ClCompile Include="scr\BusinessLogicLayer\LoginService.cpp" />
+    <ClCompile Include="scr\BusinessLogicLayer\MemberService.cpp" />
+    <ClCompile Include="scr\DataAccessLayer\BookRepository.cpp" />
+    <ClCompile Include="scr\DataAccessLayer\BorrowRepository.cpp" />
+    <ClCompile Include="scr\DataAccessLayer\DataProcessing.cpp" />
+    <ClCompile Include="scr\DataAccessLayer\MemberRepository.cpp" />
+    <ClCompile Include="scr\PresentationLayer\Menus.cpp" />
+    <ClCompile Include="scr\PresentationLayer\Screen.cpp" />
+    <ClCompile Include="scr\PresentationLayer\Ui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitattributes" />
+    <None Include="..\.gitignore" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scr\BusinessLogicLayer\BusinessLogicLayer.h" />
+    <ClInclude Include="scr\DataAccessLayer\DataAccessLayer.h" />
+    <ClInclude Include="scr\PresentationLayer\PresentationLayer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
