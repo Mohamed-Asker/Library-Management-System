@@ -144,10 +144,12 @@
     <ClCompile Include="scr\BusinessLogicLayer\BorrowService.cpp" />
     <ClCompile Include="scr\BusinessLogicLayer\LoginService.cpp" />
     <ClCompile Include="scr\BusinessLogicLayer\MemberService.cpp" />
+    <ClCompile Include="scr\BusinessLogicLayer\UsersScrvice.cpp" />
     <ClCompile Include="scr\DataAccessLayer\BookRepository.cpp" />
     <ClCompile Include="scr\DataAccessLayer\BorrowRepository.cpp" />
     <ClCompile Include="scr\DataAccessLayer\DataProcessing.cpp" />
     <ClCompile Include="scr\DataAccessLayer\MemberRepository.cpp" />
+    <ClCompile Include="scr\DataAccessLayer\UsersRepository.cpp.cpp" />
     <ClCompile Include="scr\PresentationLayer\Menus.cpp" />
     <ClCompile Include="scr\PresentationLayer\Screen.cpp" />
     <ClCompile Include="scr\PresentationLayer\Ui.cpp" />

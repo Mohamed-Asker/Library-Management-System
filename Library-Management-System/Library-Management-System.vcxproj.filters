@@ -72,6 +72,12 @@
     <ClCompile Include="scr\DataAccessLayer\MemberRepository.cpp">
       <Filter>Source Files\DataAccessLayer/</Filter>
     </ClCompile>
+    <ClCompile Include="scr\DataAccessLayer\UsersRepository.cpp.cpp">
+      <Filter>Source Files\DataAccessLayer/</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\BusinessLogicLayer\UsersScrvice.cpp">
+      <Filter>Source Files\BusinessLogicLayer/</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitattributes">
