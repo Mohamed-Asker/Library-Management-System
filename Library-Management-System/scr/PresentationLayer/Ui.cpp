@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 
 
 
@@ -7,6 +8,7 @@ namespace SystemConfig
 {
 	std::string separator = "=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=-+-=\n";
 	short StartPrint = 28;
+	std::string delimiter = "#//#";
 }
 
 namespace Helpers
@@ -20,6 +22,14 @@ namespace Helpers
 	{
 		std::cout << msg << "... ";
 		system("pause > 0");
+	}
+
+	std::string ReadText(const std::string& msg, short width)
+	{
+		std::string text;
+		std::cout << std::left << std::setw(width) << msg << ": ";
+		std::getline(std::cin >> std::ws, text);
+		return text;
 	}
 }
 
